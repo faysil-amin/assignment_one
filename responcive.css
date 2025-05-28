@@ -1,0 +1,170 @@
+/* laptop */
+@media screen and (max-width: 980px){
+    nav .navbar .logo{
+    font-size: 1.2rem;
+}
+.button{
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+.img img{
+    width: 50%;
+}
+.hero-content{
+    gap: 15px;
+}
+.text-content{
+    gap: 15px;
+}
+
+.text-content h1{
+    font-size: 1.4rem;
+}
+.text-content p{
+    font-size: .8rem;
+}
+.button-one{
+     padding: 9px 20px;
+     font-size: .8rem;
+}
+.two-main{
+    gap: 20%;
+}
+.three-div-one-one img{
+    width: 30%;
+}
+.three-div-one-one h2{
+    font-size: 1.5rem;
+}
+.three-div-one-one a{
+    font-size: .8rem;
+}
+
+.three-div-one{
+    height: 150px;
+    width: 200px;
+
+}
+
+
+.fooder{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fooder p{
+    font-size: 1rem;
+}
+.icon{
+    width: 15%;
+}
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 768px){
+ .button-one{
+     padding: 9px 20px;
+     font-size: .6rem;
+}
+  .text-content h1{
+        font-size: 1rem;
+    }
+
+    .text-two h2{
+    font-size: 1.2rem;
+}
+.two-main{
+    gap: 10%;
+}
+.three-text h1{
+    font-size: 1.6rem;
+}
+p{
+    font-size: .8rem;
+}
+.three-div-one-one h2{
+    font-size: 1.1rem;
+}
+.three-div-one-one a{
+    font-size: .6rem;
+}
+.three-div-one{
+    height: 130px;
+    width: 150px;
+
+}
+
+.fooder{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.fooder p{
+    font-size: .95rem;
+}
+.icon img{
+    width: 25%;
+}
+}
+
+/* s moible */
+
+@media screen and (max-width: 640px){
+    nav .navbar .logo{
+    font-size: 1rem;
+}
+nav .navbar{
+    width: 95%;
+}
+    .text-content h1{
+        font-size: .9rem;
+    }
+    .img img{
+        width: 50%;
+    }
+    .button{
+        padding: 9px 15px;
+        font-size: .6rem;
+    }
+     .button-one{
+     padding: 6px 15px;
+     font-size: .5rem;
+}
+.three{
+    height: 150vh;
+}
+.three-div{
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 5%;
+}
+.three-text h1{
+    font-size: 1.5rem;
+}
+.three-text p{
+    font-size: .8rem;
+}
+.text-two h2{
+    font-size: 1rem;
+}
+.text-two p{
+    font-size: .5rem;
+    padding-block: 0;
+}
+.two-main{
+    gap: 7%;
+}
+.two{
+    margin-top: 8%;
+}
+.three-div-one{
+    height: 150px;
+    width: 200px;
+
+}
+
+.fooder p{
+    font-size: .8rem;
+}
+
+}
