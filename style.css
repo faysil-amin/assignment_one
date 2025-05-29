@@ -98,21 +98,29 @@ nav .navbar .logo .io{
     width: 100%;
 }
 
+
+/* two */
 .two{
-    margin-top: 100px;
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.two-main{
+    width: 90%;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .text-two{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
-    height: 20%;
 }
 
 .text-two h2{
@@ -121,22 +129,13 @@ nav .navbar .logo .io{
 }
 
 .text-two p{
-    padding-block: 5px;
     letter-spacing: 1px;
+    text-align: center;
 }
-.two-main{
-    width: 90%;
-    height: 80%;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 5%;
-}
+
 .youtube{
     width: 90%;
-    height: 80%;
+    height: 60%;
     padding: 15px;
     background-color: #ebebeb73;
      border-radius: 14px;
@@ -170,13 +169,11 @@ iframe{
     flex-direction: column;
 }
 
-.three-text h1{
-    font-size: 2.5rem;
-}
 .three-text p{
     font-size: 1rem;
     padding-block: 2%;
     color: #060000a9;
+    text-align: center;
 }
 .three-div{
     height: 70%;
@@ -193,6 +190,7 @@ iframe{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
 }
 .three-div-one-one{
@@ -226,5 +224,57 @@ iframe{
     width: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between
+}
+
+
+/* four */
+
+.four{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.four-text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.four-text h1{
+    padding-bottom: 2%;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.463);
+}
+
+.four-content{
+    width: 90%;
+    height: 60%;
+    background-color: #E6EDF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+.four-content-main{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.text h1{
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 1.5rem;
+}
+.text p{
+    padding-block: 3%;
 }
