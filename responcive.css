@@ -42,8 +42,8 @@
 }
 
 .three-div-one{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 320px;
 
 }
 
@@ -74,7 +74,33 @@
 
 }
 
+/* tab */
+@media screen and (max-width: 1240px){
+    .three-div-one{
+    height: 200px;
+    width: 280px;
 
+}
+}
+
+@media screen and (max-width: 1150px){
+    .three-div-one{
+    height: 180px;
+    width: 260px;
+
+}
+
+}
+@media screen and (max-width: 1020px){
+    .three-div-one{
+    height: 160px;
+    width: 220px;
+
+}
+
+}
+
+/* tab 2 */
 /* mobile */
 
 @media screen and (max-width: 768px){
@@ -106,7 +132,7 @@ p{
 }
 .three-div-one{
     height: 130px;
-    width: 150px;
+    width: 180px;
 
 }
 
@@ -149,7 +175,7 @@ p{
 
 /* s moible */
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 720px){
     nav .navbar .logo{
     font-size: 1rem;
 }

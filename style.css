@@ -183,8 +183,8 @@ iframe{
     justify-content: space-between;
 }
 .three-div-one{
-    height: 200px;
-    width: 300px;
+    height: 220px;
+    width: 350px;
     background-image: linear-gradient(#E6EDF9,#9DE5FF);
     border-radius: 12px;
     display: flex;
